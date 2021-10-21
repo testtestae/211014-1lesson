@@ -1,0 +1,13 @@
+import time
+s = []
+s.append("-")
+j=0
+while j<210:
+    for q in s:
+        print(q, end="")
+    j=j+1
+    time.sleep(0.1)
+j=0
+while j<210:
+    s.append("=")
+
